@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>音乐播放器</title>
+    <script type="text/javascript" src="./js/data.js"></script>
+</head>  
+<body>  
+
+<div style="text-align: center">
+    <audio id="audio-player" controls></audio>
+</div>
+<ul id="music-list"></ul>
+
+<script>
+    // 渲染音乐列表  
+    const musicList = document.getElementById('music-list');  
+    mockMusicFiles.forEach(file => {  
+        const li = document.createElement('li');  
+        const a = document.createElement('a');  
+        a.href = '#';  
+        a.textContent = file.name;  
+        a.addEventListener('click', function(e) {  
+            e.preventDefault(); // 阻止链接的默认行为  
+            playSong(file.url);  
+        });  
+        li.appendChild(a);  
+        musicList.appendChild(li);  
+    });  
+  
+    // 播放歌曲  
+    function playSong(url) {  
+        const audioPlayer = document.getElementById('audio-player');  
+        audioPlayer.src = url; // 设置音频文件的URL  
+        audioPlayer.play(); // 播放音频  
+    }
+
+
+</script>  
+  
+</body>  
+</html>
