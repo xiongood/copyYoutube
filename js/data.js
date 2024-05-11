@@ -66,9 +66,5 @@ const mockMusicFiles = [
 	{
 		"name":"时事经纬(2024年5月11日)习近平跑趟欧洲，欧企信心更低了；习近平想重定国际格局，分析称“不可能”；中国打算把核反应堆浮海面，地区安全更悬了 - 5月 11日,2024年",
 		"url":"https://xiongood.github.io/copyYoutube/meiguo_2024-05-10_3.mp3"
-	},
-    {
-        "name": "大康有话说_2024-05-10_2.mp3",
-        "url": "https://myfox.fun/copyYoutube/%E5%A4%A7%E5%BA%B7%E6%9C%89%E8%AF%9D%E8%AF%B4_2024-05-10_1.mp3"
-    }
+	}
 ];
