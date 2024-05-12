@@ -10,7 +10,7 @@ const dataAll={
             "dataList": [
                 {
                     "title": "\u738b\u5c40\u4e8c\u5927\u7237\u5bf9\u8c08\uff1a\u8d70\u5f97\u518d\u8fdc\uff0c\u4e5f\u8d70\u4e0d\u51fa\u53bb\u56fd\u6000\u4e61\uff1b",
-                    "url": "https://xiongood.github.io/copyYoutube/wangju_2024-05-11_2.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/wangju_2024-05-11_3.mp3",
                     "duration": "57\u520659\u79d2"
                 }
             ]
