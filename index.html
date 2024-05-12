@@ -51,18 +51,33 @@
                 });
                 let indexE = document.createElement('span');
                 indexE.textContent = index+"：";
-                const duration = document.createElement('span');
-                duration.textContent = data.duration;
+                const duration = document.createElement('divspan');
+                duration.textContent = "视频时长："+data.duration;
                 duration.style.color = 'cadetblue'
+                //.style.textAlign = 'right';
+                duration.style.fontSize = '10px'
+
+                const published = document.createElement('span');
+                published.textContent = "\t更新时间："+data.published.substring(0,10);
+                published.style.color = 'cadetblue'
+                //published.style.textAlign = 'right';
+                published.style.fontSize = '10px'
+
+                dataList.appendChild(published)
+                //dataList.appendChild(document.createElement('br'))
                 dataList.appendChild(indexE)
                 dataList.appendChild(a)
+                dataList.appendChild(document.createElement('br'))
                 dataList.appendChild(duration)
+                dataList.appendChild(published)
+                dataList.appendChild(document.createElement('br'))
                 dataList.appendChild(document.createElement('br'))
 
             });
         }else {
             let tip = document.createElement('div');
-            tip.textContent="作者很懒，昨天没更新！"
+            tip.textContent="作者很懒，这几天没更新！"
+            tip.style.fontSize = '10px'
             tip.style.color = 'cadetblue'
             dataList.appendChild(tip)
         }
