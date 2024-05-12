@@ -1,4 +1,4 @@
-{
+const dataAll={
     "dataDate": "2024-05-11",
     "authors": [
         {
