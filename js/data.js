@@ -1,5 +1,5 @@
 const dataAll={
-    "dataDate": "2024-05-12",
+    "dataDate": "2024-05-13",
     "authors": [
         {
             "name": "大康有话说",
@@ -32,12 +32,6 @@ const dataAll={
                     "url": "https://xiongood.github.io/copyYoutube/wangju_3.mp3",
                     "duration": "57分59秒",
                     "published": "2024-05-11T02:59:04+00:00"
-                },
-                {
-                    "title": "香飘飘摆拍炒作，这是爱国营销还是嗜血无痕？｜爱国大V｜粉红｜核废水｜香飘飘｜诈骗｜日本｜奶茶｜王局拍案20240509",
-                    "url": "https://xiongood.github.io/copyYoutube/wangju_6.mp3",
-                    "duration": "29分27秒",
-                    "published": "2024-05-09T12:00:07+00:00"
                 }
             ]
         },
@@ -45,28 +39,28 @@ const dataAll={
             "name": "美国之音",
             "dataList": [
                 {
+                    "title": "【独家纪录片】粉红小留吴啸雷的罪与罚？",
+                    "url": "https://xiongood.github.io/copyYoutube/meiguo_3.mp3",
+                    "duration": "32分14秒",
+                    "published": "2024-05-12T13:00:07+00:00"
+                },
+                {
                     "title": "5/11【美中对标】刺杀美国总统有多难",
-                    "url": "https://xiongood.github.io/copyYoutube/meiguo_1.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/meiguo_5.mp3",
                     "duration": "25分25秒",
                     "published": "2024-05-12T03:34:17+00:00"
                 },
                 {
                     "title": "专访军史学家汉森：中国是乌战的最大赢家？",
-                    "url": "https://xiongood.github.io/copyYoutube/meiguo_8.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/meiguo_11.mp3",
                     "duration": "49分57秒",
                     "published": "2024-05-11T13:00:07+00:00"
                 },
                 {
                     "title": "时事经纬(2024年5月11日)习近平跑趟欧洲，欧企信心更低了；习近平想重定国际格局，分析称“不可能”；中国打算把核反应堆浮海面，地区安全更悬了 - 5月 11日,2024年",
-                    "url": "https://xiongood.github.io/copyYoutube/meiguo_11.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/meiguo_14.mp3",
                     "duration": "30分0秒",
                     "published": "2024-05-10T20:24:08+00:00"
-                },
-                {
-                    "title": "时事大家谈：华盛顿制裁措施升级，为何华为能够一再突围？",
-                    "url": "https://xiongood.github.io/copyYoutube/meiguo_15.mp3",
-                    "duration": "22分25秒",
-                    "published": "2024-05-10T16:03:55+00:00"
                 }
             ]
         },
