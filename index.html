@@ -9,40 +9,96 @@
     <title>音乐播放器</title>
     <script type="text/javascript" src="./js/data.js"></script>
 </head>  
-<body>  
+<body>
+
 
 <div style="text-align: center">
+    <div style="color: cadetblue;font-size: 10px" id="musicTitle"></div>
+    <br>
     <audio id="audio-player" controls></audio>
+    <div id="newPlay" style="color: cadetblue ;font-size: 10px" class="ellipsis"></div>
 </div>
-<ul id="music-list"></ul>
+<div id="authors"></div>
+<div id="music-list"></div>
 
 <script>
     // 渲染音乐列表  
-    const musicList = document.getElementById('music-list');  
-    mockMusicFiles.forEach(file => {  
-        const li = document.createElement('li');  
-        const a = document.createElement('a');  
-        a.href = '#';  
-        a.textContent = file.name;  
-        a.addEventListener('click', function(e) {  
-            e.preventDefault(); // 阻止链接的默认行为  
-            playSong(file.url);  
-        });  
-        li.appendChild(a);  
-        musicList.appendChild(li);  
-        const br = document.createElement('br');
-        musicList.appendChild(br);
-    });  
+    const musicList = document.getElementById('music-list');
+    const authors = document.getElementById('authors');
+    const musicTitle = document.getElementById('musicTitle');
+    const span = document.createElement('span');
+    // 为span元素赋值
+    span.textContent = '更新时间：'+dataAll.dataDate;
+    // 将span元素添加到div元素中
+    musicTitle.appendChild(span);
+    dataAll.authors.forEach(author => {
+        const authorName = document.createElement('h4');
+        authorName.style.color = 'red'
+        authorName.style.fontWeight = 'bold';
+        const dataList = document.createElement('div');
+        authorName.textContent = author.name;
+
+        if (author.dataList.length  > 0){
+            var index = 0
+            author.dataList.forEach(data => {
+                index ++;
+                const a = document.createElement('a');
+                a.href = '#';
+                a.textContent = data.title;
+                a.addEventListener('click', function(e) {
+                    e.preventDefault(); // 阻止链接的默认行为
+                    playSong(data.url,index,data.title,author.name);
+                });
+                let indexE = document.createElement('span');
+                indexE.textContent = index+"：";
+                const duration = document.createElement('span');
+                duration.textContent = data.duration;
+                duration.style.color = 'cadetblue'
+                dataList.appendChild(indexE)
+                dataList.appendChild(a)
+                dataList.appendChild(duration)
+                dataList.appendChild(document.createElement('br'))
+
+            });
+        }else {
+            let tip = document.createElement('div');
+            tip.textContent="作者很懒，昨天没更新！"
+            tip.style.color = 'cadetblue'
+            dataList.appendChild(tip)
+        }
+
+
+
+        authors.appendChild(authorName);
+        authors.appendChild(dataList);
+
+        authors.appendChild(document.createElement('hr'));
+
+    });
+
   
     // 播放歌曲  
-    function playSong(url) {  
+    function playSong(url,index,title,name) {
         const audioPlayer = document.getElementById('audio-player');  
         audioPlayer.src = url; // 设置音频文件的URL  
-        audioPlayer.play(); // 播放音频  
+        audioPlayer.play(); // 播放音频
+        const newPlay = document.getElementById('newPlay');
+        var text = "正在播放："+name+"  "+index+"  "+title
+        //text = text.substring(0,20)+"……"
+        newPlay.textContent = text;
     }
 
 
 </script>  
   
-</body>  
+</body>
+<style>
+    .ellipsis {
+        /* 设置宽度，如果需要的话（也可以不设置，让元素自然流动） */
+        /* width: 100%; 或其他具体值 */
+        white-space: nowrap; /* 防止文本换行 */
+        overflow: hidden; /* 隐藏超出容器的部分 */
+        text-overflow: ellipsis; /* 用省略号表示被截断的文本 */
+    }
+</style>
 </html>
