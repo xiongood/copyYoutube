@@ -88,13 +88,13 @@ def download_first_video_as_mp3():
                     print("开始下载" + channel['name'] + str(index) + "……")
                     mp4FileName = download_video(link, newFilePath)
 
-                    print("判断视频时长，短于十分钟的不要……")
+                    #print("判断视频时长，短于十分钟的不要……")
                     duration = get_video_duration(newFilePath + mp4FileName)
                     duration = int(duration)
-                    if duration < 600:
-                        print("视频短于600秒,删除视频……")
-                        os.remove(newFilePath + mp4FileName)
-                        continue
+                    #if duration < 600:
+                        #print("视频短于600秒,删除视频……")
+                        #os.remove(newFilePath + mp4FileName)
+                        #continue
                     # 转换时长格式
                     minutes = duration // 60  # 使用整数除法得到完整的分钟数
                     remaining_seconds = duration % 60  # 使用模运算符得到剩余的秒数
