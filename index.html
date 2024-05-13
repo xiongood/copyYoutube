@@ -20,7 +20,9 @@
 </div>
 <div id="authors"></div>
 <div id="music-list"></div>
-
+<div style="text-align: center; position: fixed; bottom: 20px; right: 30px; z-index: 100;">  
+    <button id="backToTopBtn" class="circle">顶</button>  
+</div>
 <script>
     // 渲染音乐列表  
     const musicList = document.getElementById('music-list');
@@ -103,7 +105,13 @@
         newPlay.textContent = text;
     }
 
-
+    const backToTopBtn = document.getElementById('backToTopBtn');  
+backToTopBtn.addEventListener('click', function() {  
+    window.scrollTo({  
+        top: 0,  
+        behavior: 'smooth' // 平滑滚动（可选）  
+    });  
+}); 
 </script>  
   
 </body>
@@ -115,5 +123,12 @@
         overflow: hidden; /* 隐藏超出容器的部分 */
         text-overflow: ellipsis; /* 用省略号表示被截断的文本 */
     }
+    .circle {  
+        width: 30px; /* 设置你想要的宽度 */  
+        height: 30px; /* 设置与宽度相同的高度 */  
+        border-radius: 50%; /* 设置为50%以创建圆形 */  
+        background-color: rgb(255, 255, 255); /* 设置背景颜色，这里为红色 */  
+        /* 可以添加其他样式，如边框、阴影等 */  
+}
 </style>
 </html>
