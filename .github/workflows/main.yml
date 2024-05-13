@@ -1,0 +1,63 @@
+name: Scheduled Python Script
+
+on:
+  #手动触发方便测试
+  repository_dispatch:  
+    types: [manual-trigger]
+  # 定时触发，有时差
+  schedule:
+    #凌晨一点
+    - cron: '0 17 * * *'
+  #push:
+    #branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+#    env:
+#      TZ: Asia/Shanghai  # 设置时区为 Asia/Shanghai（北京时间）
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x # 或者你需要的 Python 版本
+      - name: 安装依赖
+        run: |  
+          python -m pip install --upgrade pip  
+          pip install feedparser # 假设你的脚本需要 requests  库rss获取地址
+          pip install pytube # 下载视频
+          pip install moviepy # 音频转视频
+          pip install python-dateutil #处理日期插件
+          pip install pytz
+      # 克隆目标仓库
+      - name: 下载仓库代码
+        run: |
+          git clone https://xiongood:${{ secrets.ACCESS_TOKEN }}@github.com/xiongood/copyYoutube.git  
+          cd copyYoutube  
+          ls
+          git config user.name "xiongood"  
+          git config user.email "xiongood@88.com"
+      # 删除所有以 .mp3 结尾的文件
+      - name: 删除原有的音频文件
+        working-directory: ./copyYoutube
+        run: |
+          find . -type f -name "*.mp3" -delete
+      # 执行python脚本
+      - name: 执行python脚本进行数据下载及处理
+        run: python mainToGithub.py # 使用绝对路径或相对路径运行脚本
+      # 假设我们要推送一个名为 'new-file.txt' 的文件
+      - name: 把处理好的文件复制到git仓库中
+        working-directory: ./
+        run: |
+          cp -r ./newFile/* ./copyYoutube/
+      # 提交并推送更改
+      - name: 提交仓库
+        working-directory: ./copyYoutube
+        run: |
+          git add .
+          git commit -m "Adding mp3 via GitHub Actions"  
+          git push origin HEAD:main
+        env:
+          # 在仓库设置中创建一个名为 IMAGES_REPO_PAT 的 secret，并存储您的 Personal Access Token
+          IMAGES_REPO_PAT: ${{ secrets.ACCESS_TOKEN }}
