@@ -130,9 +130,13 @@ def download_first_video_as_mp3():
                     # 转音频
                     print("视频转音频……")
                     video = AudioFileClip(newFilePath + mp4FileName)
+                    audio = video.audio
                     # 将音频写入MP3文件
                     mp3Name = channel['cnName'] + "_" + str(index) + ".mp3"
-                    video.write_audiofile(newFilePath + mp3Name)
+                    video.write_audiofile(newFilePath + mp3Name, codec='libmp3lame', bitrate='128k')
+                    # 关闭视频和音频的读取器，释放资源
+                    video.reader.close()
+                    audio.reader.close_proc()  # 注意这里使用close_proc()来确保子进程被关闭
                     print("删除视频……")
                     os.remove(newFilePath + mp4FileName)
                     # 判断是否重复用的集合
