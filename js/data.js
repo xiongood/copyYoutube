@@ -1,5 +1,5 @@
 const dataAll={
-    "dataDate": "2024-05-14",
+    "dataDate": "2024-05-15",
     "authors": [
         {
             "name": "大康有话说",
@@ -28,34 +28,34 @@ const dataAll={
             "name": "王局拍案",
             "dataList": [
                 {
-                    "title": "“我儿子是成都市长”人民为什么宁愿相信谣言，也不愿意信任政府？｜成都｜长融街｜吉普｜老太太打人｜摸一下一万｜谣言｜王局拍案20240513",
+                    "title": "习近平访欧，合纵连横分化之旅？｜法国｜匈牙利｜塞尔维亚｜习近平｜马克龙｜访欧｜欧盟｜关税｜新质生产力｜光伏｜新能源｜王局拍案20240514",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_1.mp3",
+                    "duration": "29分0秒",
+                    "published": "2024-05-14T12:00:19+00:00"
+                },
+                {
+                    "title": "“我儿子是成都市长”人民为什么宁愿相信谣言，也不愿意信任政府？｜成都｜长融街｜吉普｜老太太打人｜摸一下一万｜谣言｜王局拍案20240513",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_2.mp3",
                     "duration": "30分50秒",
                     "published": "2024-05-13T12:00:26+00:00"
                 },
                 {
                     "title": "喜讯：《王志安谈治国理政》正式出版！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_2.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_3.mp3",
                     "duration": "3分17秒",
                     "published": "2024-05-13T08:20:24+00:00"
                 },
                 {
                     "title": "擁有勇氣匹敵擁有權力？坦克人和毛澤東並駕齊驅",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_3.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_4.mp3",
                     "duration": "0分59秒",
                     "published": "2024-05-13T03:13:41+00:00"
                 },
                 {
                     "title": "答网友问：王局本人对转基因的态度是？",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_4.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_5.mp3",
                     "duration": "4分6秒",
                     "published": "2024-05-12T03:16:57+00:00"
-                },
-                {
-                    "title": "福建舰海试，其技术已与美国平起平坐？",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_5.mp3",
-                    "duration": "4分0秒",
-                    "published": "2024-05-11T09:14:13+00:00"
                 }
             ]
         },
@@ -67,16 +67,16 @@ const dataAll={
             "name": "脑洞乌托邦",
             "dataList": [
                 {
-                    "title": "靠「二創」碰瓷「原創」，居然還大獲全勝？！史上最囂張的山寨公司",
+                    "title": "世界第一果秀“瘋馬秀”的起源，你絕對想不到",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/wutuo_1.mp3",
-                    "duration": "0分48秒",
-                    "published": "2024-05-13T12:30:16+00:00"
+                    "duration": "0分49秒",
+                    "published": "2024-05-14T12:30:29+00:00"
                 },
                 {
-                    "title": "震驚！一夜之間多位千萬級網紅集體消失！中國最大直播平台CEO被捕！洗錢、涉賭，深扒鬥魚的“擦邊帝國”是如何崩塌的 [She's Xiaowu 小烏]",
+                    "title": "靠「二創」碰瓷「原創」，居然還大獲全勝？！史上最囂張的山寨公司",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/wutuo_2.mp3",
-                    "duration": "30分56秒",
-                    "published": "2024-05-11T12:30:04+00:00"
+                    "duration": "0分48秒",
+                    "published": "2024-05-13T12:30:16+00:00"
                 }
             ]
         },
@@ -198,16 +198,16 @@ const dataAll={
             "name": "世界之最TOP",
             "dataList": [
                 {
-                    "title": "全世界最大的10個超級水族館！台灣只排第10，美國排名第4，第一名讓人意外，超過68000個海洋生物。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最大水族館",
+                    "title": "全世界最貴的10輛超級跑車！布加迪竟只排第8，第一名能買675輛法拉利，堪稱“美女收割機”。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最貴跑車",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/shijiezhizuiTOP_1.mp3",
-                    "duration": "24分43秒",
-                    "published": "2024-05-12T09:00:19+00:00"
+                    "duration": "23分40秒",
+                    "published": "2024-05-14T09:00:21+00:00"
                 },
                 {
-                    "title": "全世界最危險的10個旅遊景點！每年超4000人在此喪命，第一名99%概率去世，卻有無數人搶著去。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最危險景點",
+                    "title": "全世界最大的10個超級水族館！台灣只排第10，美國排名第4，第一名讓人意外，超過68000個海洋生物。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最大水族館",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/shijiezhizuiTOP_2.mp3",
-                    "duration": "24分45秒",
-                    "published": "2024-05-11T09:00:21+00:00"
+                    "duration": "24分43秒",
+                    "published": "2024-05-12T09:00:19+00:00"
                 }
             ]
         }
