@@ -129,7 +129,8 @@ def download_first_video_as_mp3():
 
                     # 转音频
                     print("视频转音频……")
-                    video = AudioFileClip(newFilePath + mp4FileName)
+                    # video = AudioFileClip(newFilePath + mp4FileName)
+                    video = VideoFileClip(newFilePath + mp4FileName)
                     audio = video.audio
                     # 将音频写入MP3文件
                     mp3Name = channel['cnName'] + "_" + str(index) + ".mp3"
