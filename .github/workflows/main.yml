@@ -51,7 +51,7 @@ jobs:
       - name: 把处理好的文件复制到git仓库中
         working-directory: ./
         run: |
-          cp -r ./newFile/* ./copyYoutube/mp3/
+          cp -r ./newFile/*.mp3 ./copyYoutube/mp3/
       # 提交并推送更改
       - name: 提交仓库
         working-directory: ./copyYoutube
