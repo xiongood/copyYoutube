@@ -140,7 +140,7 @@ def download_first_video_as_mp3():
                     # 写入js的音频标题
                     mp3_data1.title = title
                     # 写入js的音频地址
-                    mp3_data1.url = "https://xiongood.github.io/copyYoutube/" + mp3Name
+                    mp3_data1.url = "https://xiongood.github.io/copyYoutube/mp3/" + mp3Name
                     # 写入js的音频时长
                     mp3_data1.duration = durationStr
                     mp3_data1.published = published
@@ -171,13 +171,16 @@ def download_first_video_as_mp3():
 def download_video(url, output_path):
     try:
         yt = YouTube(url)
-        video = yt.streams.get_lowest_resolution()  # 获取最低分辨率流
-        video.download(output_path)
-        print("下载完成！")
-        print("文件名称:", video.default_filename)
-        return str(video.default_filename)
-    except AttributeError:
-        print("视频没有最低分辨率流。")
+        streams = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first()
+        if streams:
+            video = streams
+            filename = os.path.basename(str(uuid.uuid4())+".mp4")  # 使用视频的文件名
+            video.download(output_path, filename=filename)  # 保存视频时指定文件名
+            print("下载完成！")
+            print("文件名称:", filename)
+            return filename
+        else:
+            print("视频没有可用的流。")
     except Exception as e:
         print("下载出错:", e)
 

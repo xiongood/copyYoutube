@@ -35,13 +35,14 @@ jobs:
         run: |
           git clone https://xiongood:${{ secrets.ACCESS_TOKEN }}@github.com/xiongood/copyYoutube.git  
           cd copyYoutube  
-          ls
           git config user.name "xiongood"  
           git config user.email "xiongood@88.com"
       # 删除所有以 .mp3 结尾的文件
       - name: 删除原有的音频文件
         working-directory: ./copyYoutube
         run: |
+          find . -type f -name "*.mp3" -delete
+          cd mp3
           find . -type f -name "*.mp3" -delete
       # 执行python脚本
       - name: 执行python脚本进行数据下载及处理
@@ -50,7 +51,7 @@ jobs:
       - name: 把处理好的文件复制到git仓库中
         working-directory: ./
         run: |
-          cp -r ./newFile/* ./copyYoutube/
+          cp -r ./newFile/* ./copyYoutube/mp3/
       # 提交并推送更改
       - name: 提交仓库
         working-directory: ./copyYoutube
