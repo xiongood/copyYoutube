@@ -21,14 +21,39 @@ channelList = [
      'name': '王局拍案',
      'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCBKDRq35-L8xev4O7ZqBeLg'
      },
-    {'cnName': 'meiguo',
-     'name': '美国之音',
-     'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCt5zpwa264A0B-gaYtv1IpA'
-     },
-    {'cnName': 'laogao',
-     'name': '老高和小茉',
-     'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCtR5okwgTMghi_uyWvbloEg'
-     },
+     {'cnName': 'laogao',
+      'name': '老高和小茉',
+      'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCtR5okwgTMghi_uyWvbloEg'
+      },
+      {'cnName': 'wutuo',
+        'name': '脑洞乌托邦',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2tQpW0dPiyWPebwBSksJ_g'
+      },
+      {'cnName': 'laoliang',
+        'name': '老梁',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC661VQhlv-WJ5TSEU7i-sQg'
+      },
+      {'cnName': 'cuiyongy',
+        'name': '崔永元',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCAq_xQV8pJ2Q_KOszzaYPBg'
+      },
+      {'cnName': 'chaijing',
+        'name': '柴静',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCjuNibFJ21MiSNpu8LZyV4w'
+      },
+      {'cnName': 'M2dangan',
+        'name': 'M2档案',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC9HOOTENXN_Q2AJ7eozWBXA'
+      },
+      {'cnName': 'shijiezhizuiTOP',
+        'name': '世界之最TOP',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCE_4Cin3l8LwAySxEVluKDQ'
+      },
+#     {'cnName': 'meiguo',
+#      'name': '美国之音',
+#      'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCt5zpwa264A0B-gaYtv1IpA'
+#      },
+
 ]
 # 保存已经处理的视频
 titleSet = set()
