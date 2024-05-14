@@ -3,20 +3,7 @@ const dataAll={
     "authors": [
         {
             "name": "大康有话说",
-            "dataList": [
-                {
-                    "title": "20240513直播：蔡英文是个好总统！中国大面积社会溃败的政治根源，回想当年的那场脆断；答观众问：中国的‘礼仪之邦’不是你想的那样，‘四大文明古国’都是瞎掰的。（20240513 第1472期）",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_2.mp3",
-                    "duration": "100分44秒",
-                    "published": "2024-05-13T03:47:26+00:00"
-                },
-                {
-                    "title": "20240512直播：拜登大规模加税计划只是轻轻打屁股，致命大招已在准备中；新数据显示依然深陷通缩陷阱，广州喜迎水费涨价听证会真相。（20240512 第1471期）",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_3.mp3",
-                    "duration": "100分45秒",
-                    "published": "2024-05-12T03:47:25+00:00"
-                }
-            ]
+            "dataList": []
         },
         {
             "name": "王局拍案",
@@ -191,12 +178,6 @@ const dataAll={
         {
             "name": "世界之最TOP",
             "dataList": [
-                {
-                    "title": "全世界最大的10個超級水族館！台灣只排第10，美國排名第4，第一名讓人意外，超過68000個海洋生物。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最大水族館",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/shijiezhizuiTOP_1.mp3",
-                    "duration": "24分43秒",
-                    "published": "2024-05-12T09:00:19+00:00"
-                },
                 {
                     "title": "全世界最危險的10個旅遊景點！每年超4000人在此喪命，第一名99%概率去世，卻有無數人搶著去。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最危險景點",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/shijiezhizuiTOP_2.mp3",
