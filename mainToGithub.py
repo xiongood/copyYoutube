@@ -109,9 +109,10 @@ def download_first_video_as_mp3():
                         print("视频过早，跳过")
                         continue
 
-                    print("是昨天的数据，进行下载……")
+                    print("是三天以内的数据，进行下载……")
                     # 下载
                     print("开始下载" + channel['name'] + str(index) + "……")
+                    print(link)
                     mp4FileName = download_video(link, newFilePath)
 
                     #print("判断视频时长，短于十分钟的不要……")
@@ -181,11 +182,14 @@ def download_first_video_as_mp3():
 
 def download_video(url, output_path):
     try:
+        name = str(uuid.uuid4()) + ".mp4"
+        print("开始下载：" + url)
         yt = YouTube(url)
         streams = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first()
         if streams:
             video = streams
-            filename = os.path.basename(str(uuid.uuid4())+".mp4")  # 使用视频的文件名
+
+            filename = os.path.basename(name)  # 使用视频的文件名
             video.download(output_path, filename=filename)  # 保存视频时指定文件名
             print("下载完成！")
             print("文件名称:", filename)
