@@ -1,26 +1,26 @@
 const dataAll={
-    "dataDate": "2024-05-15",
+    "dataDate": "2024-05-16",
     "authors": [
         {
             "name": "大康有话说",
             "dataList": [
                 {
-                    "title": "20240514直播：国民党自绝于台湾？当年老蒋赌气铸成大错；新轴心已经成型，中俄结盟已到无可挽回的地步；真没辙了！发50年超长国债；4月金融数据证明政策根本无效。（20240514 第1473期）",
+                    "title": "20240515直播：拜登关税战！喊声大力道小侮辱性强，是否贸易战要看欧盟和中国；普京携3大筹码高调访华，又当又立的习近平左右为难。（20240515第1474期）",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_1.mp3",
+                    "duration": "98分0秒",
+                    "published": "2024-05-15T03:43:39+00:00"
+                },
+                {
+                    "title": "20240514直播：国民党自绝于台湾？当年老蒋赌气铸成大错；新轴心已经成型，中俄结盟已到无可挽回的地步；真没辙了！发50年超长国债；4月金融数据证明政策根本无效。（20240514 第1473期）",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_2.mp3",
                     "duration": "88分0秒",
                     "published": "2024-05-14T03:33:18+00:00"
                 },
                 {
                     "title": "20240513直播：蔡英文是个好总统！中国大面积社会溃败的政治根源，回想当年的那场脆断；答观众问：中国的‘礼仪之邦’不是你想的那样，‘四大文明古国’都是瞎掰的。（20240513 第1472期）",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_2.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_3.mp3",
                     "duration": "100分44秒",
                     "published": "2024-05-13T03:47:26+00:00"
-                },
-                {
-                    "title": "20240512直播：拜登大规模加税计划只是轻轻打屁股，致命大招已在准备中；新数据显示依然深陷通缩陷阱，广州喜迎水费涨价听证会真相。（20240512 第1471期）",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/dakang_3.mp3",
-                    "duration": "100分45秒",
-                    "published": "2024-05-12T03:47:25+00:00"
                 }
             ]
         },
@@ -28,34 +28,40 @@ const dataAll={
             "name": "王局拍案",
             "dataList": [
                 {
-                    "title": "习近平访欧，合纵连横分化之旅？｜法国｜匈牙利｜塞尔维亚｜习近平｜马克龙｜访欧｜欧盟｜关税｜新质生产力｜光伏｜新能源｜王局拍案20240514",
+                    "title": "欧洲自然科学院的野鸡院士，为什么能在中国卖高价？｜欧洲自然科学院 ｜院士 ｜诈骗｜40万 ｜欧洲科学院｜90后院士 ｜民营企业家 ｜中医药｜",
                     "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_1.mp3",
+                    "duration": "25分58秒",
+                    "published": "2024-05-15T12:00:34+00:00"
+                },
+                {
+                    "title": "狡兔三窟！王局会员网站正式推出",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_2.mp3",
+                    "duration": "5分6秒",
+                    "published": "2024-05-15T06:06:07+00:00"
+                },
+                {
+                    "title": "习近平访欧，合纵连横分化之旅？｜法国｜匈牙利｜塞尔维亚｜习近平｜马克龙｜访欧｜欧盟｜关税｜新质生产力｜光伏｜新能源｜王局拍案20240514",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_3.mp3",
                     "duration": "29分0秒",
                     "published": "2024-05-14T12:00:19+00:00"
                 },
                 {
                     "title": "“我儿子是成都市长”人民为什么宁愿相信谣言，也不愿意信任政府？｜成都｜长融街｜吉普｜老太太打人｜摸一下一万｜谣言｜王局拍案20240513",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_2.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_4.mp3",
                     "duration": "30分50秒",
                     "published": "2024-05-13T12:00:26+00:00"
                 },
                 {
                     "title": "喜讯：《王志安谈治国理政》正式出版！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_3.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_5.mp3",
                     "duration": "3分17秒",
                     "published": "2024-05-13T08:20:24+00:00"
                 },
                 {
                     "title": "擁有勇氣匹敵擁有權力？坦克人和毛澤東並駕齊驅",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_4.mp3",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_6.mp3",
                     "duration": "0分59秒",
                     "published": "2024-05-13T03:13:41+00:00"
-                },
-                {
-                    "title": "答网友问：王局本人对转基因的态度是？",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/wangju_5.mp3",
-                    "duration": "4分6秒",
-                    "published": "2024-05-12T03:16:57+00:00"
                 }
             ]
         },
@@ -81,110 +87,8 @@ const dataAll={
             ]
         },
         {
-            "name": "老梁",
-            "dataList": [
-                {
-                    "title": "老梁揭秘系列-医院大夫是怎样给病人开药？老梁为你揭露其中的猫腻！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_1.mp3",
-                    "duration": "12分21秒",
-                    "published": "2024-05-14T00:38:27+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-高情商老梁解析：熊猫生态茶，一斤卖到22万，它凭什么这么贵？",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_2.mp3",
-                    "duration": "9分12秒",
-                    "published": "2024-05-14T00:38:27+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-解析乞丐的讨要法，丐帮也有江湖？究竟是什么原因",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_3.mp3",
-                    "duration": "9分26秒",
-                    "published": "2024-05-14T00:38:27+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-为什么说书人就喜欢说隋唐历史？老梁真是一针见血",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_4.mp3",
-                    "duration": "11分49秒",
-                    "published": "2024-05-14T00:38:27+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-如今年轻妈妈都选择剖腹产是不是正确的？看看老梁怎么说丨天天五味评",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_5.mp3",
-                    "duration": "10分58秒",
-                    "published": "2024-05-14T00:38:27+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：張子強究竟是什麼樣的人？為何整了10億還不聽李嘉誠話",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_6.mp3",
-                    "duration": "12分35秒",
-                    "published": "2024-05-13T01:50:37+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：袁世凱的傳奇人生，竟然還有這檔事，看完長知識了！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_7.mp3",
-                    "duration": "14分45秒",
-                    "published": "2024-05-13T01:50:37+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：邁克爾傑克遜為什麼會得抑郁癥？聽完真相，太心痛了！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_8.mp3",
-                    "duration": "10分51秒",
-                    "published": "2024-05-13T01:50:37+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：看到女研究生大多數都穿著旗袍，不得不稱贊一聲漂亮",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_9.mp3",
-                    "duration": "8分53秒",
-                    "published": "2024-05-13T01:50:37+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：中國遠征軍為什麼遠征？該讓後代子孫知道，他們是愛國家的",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_10.mp3",
-                    "duration": "8分35秒",
-                    "published": "2024-05-13T01:50:37+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：親屬守墳兩個月，最終難逃屍體被盜，屍體去哪裏了呢？",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_11.mp3",
-                    "duration": "9分56秒",
-                    "published": "2024-05-12T00:00:35+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：分析年輕人離婚率高的原因，過分真實了，真是句句紮心！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_12.mp3",
-                    "duration": "13分29秒",
-                    "published": "2024-05-12T00:00:21+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：蛐蛐有「三反」五德，鬥蛐蛐有什麼講究？老梁解說鬥蛐蛐的典故！",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_13.mp3",
-                    "duration": "11分58秒",
-                    "published": "2024-05-12T00:00:19+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：醫生救活腦癱兒遭暴打，面對缺陷兒是救還是不救？老梁深度解讀",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_14.mp3",
-                    "duration": "10分19秒",
-                    "published": "2024-05-12T00:00:15+00:00"
-                },
-                {
-                    "title": "老梁揭秘系列-老梁：慈禧寢宮緊鎖了90年終於開放，究竟隱藏了什麼秘密？",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/laoliang_15.mp3",
-                    "duration": "11分15秒",
-                    "published": "2024-05-12T00:00:12+00:00"
-                }
-            ]
-        },
-        {
             "name": "崔永元",
-            "dataList": [
-                {
-                    "title": "重山之外，门框以内",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/cuiyongy_1.mp3",
-                    "duration": "27分2秒",
-                    "published": "2024-05-12T04:38:42+00:00"
-                }
-            ]
+            "dataList": []
         },
         {
             "name": "柴静",
@@ -192,7 +96,14 @@ const dataAll={
         },
         {
             "name": "M2档案",
-            "dataList": []
+            "dataList": [
+                {
+                    "title": "想知道愛犬品種，記者覺得檢測不靠譜，寄出自己的DNA，結果她變成了狗，還是個串兒",
+                    "url": "https://xiongood.github.io/copyYoutube/mp3/M2dangan_1.mp3",
+                    "duration": "29分47秒",
+                    "published": "2024-05-15T00:30:31+00:00"
+                }
+            ]
         },
         {
             "name": "世界之最TOP",
@@ -202,12 +113,6 @@ const dataAll={
                     "url": "https://xiongood.github.io/copyYoutube/mp3/shijiezhizuiTOP_1.mp3",
                     "duration": "23分40秒",
                     "published": "2024-05-14T09:00:21+00:00"
-                },
-                {
-                    "title": "全世界最大的10個超級水族館！台灣只排第10，美國排名第4，第一名讓人意外，超過68000個海洋生物。|#世界之最top #世界之最 #出類拔萃 #腦洞大開 #top10 #最大水族館",
-                    "url": "https://xiongood.github.io/copyYoutube/mp3/shijiezhizuiTOP_2.mp3",
-                    "duration": "24分43秒",
-                    "published": "2024-05-12T09:00:19+00:00"
                 }
             ]
         }
