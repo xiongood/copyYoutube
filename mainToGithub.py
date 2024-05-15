@@ -30,10 +30,10 @@ channelList = [
         'name': '脑洞乌托邦',
         'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2tQpW0dPiyWPebwBSksJ_g'
       },
-      {'cnName': 'laoliang',
-        'name': '老梁',
-        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC661VQhlv-WJ5TSEU7i-sQg'
-      },
+      # {'cnName': 'laoliang',
+      #   'name': '老梁',
+      #   'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC661VQhlv-WJ5TSEU7i-sQg'
+      # },
       {'cnName': 'cuiyongy',
         'name': '崔永元',
         'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCAq_xQV8pJ2Q_KOszzaYPBg'
