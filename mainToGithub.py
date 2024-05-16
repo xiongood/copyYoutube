@@ -153,7 +153,7 @@ def download_first_video_as_mp3():
                     audio = video.audio
                     mp3Name = channel['cnName'] + "_" + str(index) + ".mp3"
                     # 写入MP3文件并设置比特率
-                    audio.write_audiofile(newFilePath + mp3Name, codec='libmp3lame', bitrate='128K')
+                    audio.write_audiofile(newFilePath + mp3Name, codec='libmp3lame', bitrate='64K')
 
                     # 关闭视频和音频的读取器，释放资源
                     video.reader.close()
