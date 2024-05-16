@@ -34,13 +34,15 @@
     // 将span元素添加到div元素中
     musicTitle.appendChild(span);
     dataAll.authors.forEach(author => {
-        const authorName = document.createElement('h4');
-        authorName.style.color = 'red'
-        authorName.style.fontWeight = 'bold';
-        const dataList = document.createElement('div');
-        authorName.textContent = author.name;
+
 
         if (author.dataList.length  > 0){
+            const authorName = document.createElement('h4');
+            authorName.style.color = 'red'
+            authorName.style.fontWeight = 'bold';
+            const dataList = document.createElement('div');
+            authorName.textContent = author.name;
+
             var index = 0
             author.dataList.forEach(data => {
                 index ++;
@@ -76,18 +78,13 @@
                 dataList.appendChild(document.createElement('br'))
 
             });
-        }else {
-            let tip = document.createElement('div');
-            tip.textContent="作者很懒，这几天没更新！"
-            tip.style.fontSize = '10px'
-            tip.style.color = 'cadetblue'
-            dataList.appendChild(tip)
+            authors.appendChild(authorName);
+            authors.appendChild(dataList);
         }
 
 
 
-        authors.appendChild(authorName);
-        authors.appendChild(dataList);
+
 
         authors.appendChild(document.createElement('hr'));
 
