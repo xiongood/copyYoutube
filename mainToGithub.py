@@ -50,11 +50,26 @@ channelList = [
         'name': '世界之最TOP',
         'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCE_4Cin3l8LwAySxEVluKDQ'
       },
+      {'cnName': 'huanyuxinwen',
+        'name': '寰宇新聞',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCp2f7tGJGN6R9Muxipem8Nw'
+      },
+      {'cnName': 'wenzhao',
+        'name': '文昭談古論今',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCtAIPjABiQD3qjlEl1T5VpA'
+      },
+      {'cnName': 'xiaolinshuo',
+        'name': '小Lin说',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCilwQlk62k1z7aUEZPOB6yw'
+      },
+      {'cnName': 'jishizatan',
+        'name': '纪实杂谈',
+        'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCtYZmRP1bFk2-Ldkmf0kNlg'
+      },
 #     {'cnName': 'meiguo',
 #      'name': '美国之音',
 #      'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCt5zpwa264A0B-gaYtv1IpA'
 #      },
-
 ]
 # 保存已经处理的视频
 titleSet = set()
