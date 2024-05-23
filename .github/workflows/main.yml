@@ -37,6 +37,16 @@ jobs:
           cd copyYoutube  
           git config user.name "xiongood"  
           git config user.email "xiongood@88.com"
+          # 删除所有的历史记录，释放空间
+          git filter-repo --path ./copyYoutube/* --invert-paths
+          git push origin HEAD:main --force
+          git gc --aggressive --prune=now
+          git push origin --force --all
+          git push origin --force --tags
+        env:
+          # 在仓库设置中创建一个名为 IMAGES_REPO_PAT 的 secret，并存储您的 Personal Access Token
+          IMAGES_REPO_PAT: ${{ secrets.ACCESS_TOKEN }}
+          
       # 删除所有以 .mp3 结尾的文件
       - name: 删除原有的音频文件
         working-directory: ./copyYoutube
